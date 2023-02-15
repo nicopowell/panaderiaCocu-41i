@@ -144,7 +144,13 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <button class="btn btn-primary" disabled>Ver mas</button>
+              <button
+                class="btn btn-primary"
+                data-bs-target="#modalTarta"
+                data-bs-toggle="modal"
+              >
+                Ver mas
+              </button>
             </div>
           </article>
         </aside>
@@ -306,8 +312,48 @@
               </p>
             </div>
             <div class="modal-footer">
-              <p>Precio: <b>$890</b></p>
               <p>Precio: <span class="fw-bold">$890</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Modal Tarta -->
+      <section
+        class="modal fade"
+        id="modalTarta"
+        tabindex="-1"
+        aria-labelledby="modalTartaLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title fs-5" id="modalTartaLabel">Tarta</h3>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="../img/productos/Torta-de-chocolate_00098_portfolio.jpg"
+                class="w-100 mb-3"
+                alt="Tarta"
+              />
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Consequatur quae a consectetur cumque ipsa ea, dolores, incidunt
+                illum quibusdam aliquam nobis reiciendis asperiores, labore
+                veritatis et est expedita porro necessitatibus voluptatibus! Id
+                repellendus praesentium expedita, repudiandae totam distinctio,
+                necessitatibus aspernatur eveniet laudantium, ad ratione earum
+                minima vel quae. Quod, sint!
+              </p>
+            </div>
+            <div class="modal-footer">
+              <p>Precio: <span class="fw-bold">$2500</span></p>
             </div>
           </div>
         </div>

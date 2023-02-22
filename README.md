@@ -4,6 +4,10 @@
 
 Este proyecto es una practica de maquetado con bootstrap de una panaderia llamada Cocu
 
+## Demo
+
+[Panadería Cocu](https://nicopowell-panaderiacocu.netlify.app/)
+
 ## Tecnologias / Herramientas 🔨
 
 - [Bootstrap v5.3](https://getbootstrap.com/)
@@ -18,4 +22,4 @@ git clone https://github.com/nicopowell/panaderiaCocu-41i.git
 
 ## Autores
 
-1. Nico Powell
+1. [Nicolas Powell](https://github.com/nicopowell)
